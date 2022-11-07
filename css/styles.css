@@ -138,3 +138,39 @@ a:hover{
     font-size: 0.75rem;
     padding: 20px 0;
 }
+
+@media screen and (max-width: 414px){
+    .top-cloud{
+        position: absolute;
+        right: 200px;
+        top: 40px;
+    }
+    
+    .bottom-cloud{
+        position: absolute;
+        left: 240px;
+        bottom: 200px;
+    }
+
+    .intro{
+        width: 75%;
+    }
+
+    p{
+        line-height: 1.5;
+    }
+
+    .contact-message{
+        width: 75%;
+    }
+
+    .skill-row{
+        width: 80%;
+        margin: 75px auto 75px auto;
+        text-align: left;
+    }
+
+    .mountain{
+        width: 100%;
+    }
+}
